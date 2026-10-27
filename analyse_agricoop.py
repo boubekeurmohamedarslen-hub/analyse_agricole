@@ -4,7 +4,7 @@ import csv
 adherents = []
 
 # 2. Ouvrir le fichier
-with open("agricoop_adherents (1).csv", encoding="utf-8-sig") as fichier:
+with open("data/agricoop_adherents.csv", encoding="utf-8-sig") as fichier:
     lecteur = csv.DictReader(fichier, delimiter=";")
 
     # 3. Ajouter chaque ligne dans la liste
